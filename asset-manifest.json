@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/graeme-bruce-portfolio/static/css/main.f3931846.css",
+    "main.js": "/graeme-bruce-portfolio/static/js/main.80a63439.js",
+    "index.html": "/graeme-bruce-portfolio/index.html",
+    "main.f3931846.css.map": "/graeme-bruce-portfolio/static/css/main.f3931846.css.map",
+    "main.80a63439.js.map": "/graeme-bruce-portfolio/static/js/main.80a63439.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3931846.css",
+    "static/js/main.80a63439.js"
+  ]
+}
