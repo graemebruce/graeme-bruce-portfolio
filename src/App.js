@@ -3,7 +3,7 @@ import './App.css';
 
 const stories = [
   {
-    id: 1, title: "U.S. presidents are older than ever while Canada's PMs are getting younger. Why?", image: '/president-age.jpg', url: "https://www.cbc.ca/news/world/president-prime-minister-age-1.7131860"
+    id: 1, title: "U.S.... presidents are older than ever while Canada's PMs are getting younger. Why?", image: './president-age.jpg', url: "https://www.cbc.ca/news/world/president-prime-minister-age-1.7131860"
   },
   {
     id: 2, title: "Is another pipe failure looming? A health check of Canada's water mains", image: '/pipe-health.jpg', url: "https://www.cbc.ca/news/canada/water-main-age-health-canada-1.7307124"
