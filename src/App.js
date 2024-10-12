@@ -3,26 +3,26 @@ import './App.css';
 
 const stories = [
   {
-    id: 1, title: "U.S. presidents are older than ever while Canada's PMs are getting younger. Why?", image: '/images/president-age.jpg', url: "https://www.cbc.ca/news/world/president-prime-minister-age-1.7131860"
+    id: 1, title: "U.S. presidents are older than ever while Canada's PMs are getting younger. Why?", image: '/president-age.jpg', url: "https://www.cbc.ca/news/world/president-prime-minister-age-1.7131860"
   },
   {
-    id: 2, title: "Is another pipe failure looming? A health check of Canada's water mains", image: '/images/pipe-health.jpg', url: "https://www.cbc.ca/news/canada/water-main-age-health-canada-1.7307124"
+    id: 2, title: "Is another pipe failure looming? A health check of Canada's water mains", image: '/pipe-health.jpg', url: "https://www.cbc.ca/news/canada/water-main-age-health-canada-1.7307124"
   },
-  { id: 3, title: 'Live tracking wildfires in Canada', image: '/images/wildfires.jpg', url: "https://www.cbc.ca/newsinteractives/features/wildfires-tracker-canada" },
+  { id: 3, title: 'Live tracking wildfires in Canada', image: '/wildfires.jpg', url: "https://www.cbc.ca/newsinteractives/features/wildfires-tracker-canada" },
 
-  { id: 4, title: 'Many parts of Canada are seeing less snow on the ground over Christmas. Find out if you’ll have snow this holiday.', image: '/images/snow.png', url: "https://newsinteractives.cbc.ca/features/2022/white-christmas/" },
+  { id: 4, title: 'Many parts of Canada are seeing less snow on the ground over Christmas. Find out if you’ll have snow this holiday.', image: '/snow.png', url: "https://newsinteractives.cbc.ca/features/2022/white-christmas/" },
 
-  { id: 5, title: 'Calculate how your mortgage will be affected as interest rates change', image: '/images/mortgage-calc.jpeg', url: "https://www.cbc.ca/news/business/mortgage-calculator-1.7007572" },
+  { id: 5, title: 'Calculate how your mortgage will be affected as interest rates change', image: '/mortgage-calc.jpeg', url: "https://www.cbc.ca/news/business/mortgage-calculator-1.7007572" },
 
-  { id: 6, title: 'Many workers hit the picket line in 2023. These 5 charts help contextualize a year of strikes', image: '/images/strikes.jpg', url: "https://www.cbc.ca/news/canada/year-of-strike-2023-historic-1.7042081" },
+  { id: 6, title: 'Many workers hit the picket line in 2023. These 5 charts help contextualize a year of strikes', image: '/strikes.jpg', url: "https://www.cbc.ca/news/canada/year-of-strike-2023-historic-1.7042081" },
 
-  { id: 7, title: "COVID-19's place in history of wars, tragedies and innovations", image: '/images/covid-history.jpg', url: 'https://today.yougov.com/health/articles/32202-covid-place-history' },
+  { id: 7, title: "COVID-19's place in history of wars, tragedies and innovations", image: '/covid-history.jpg', url: 'https://today.yougov.com/health/articles/32202-covid-place-history' },
 
-  { id: 8, title: 'Church and state: How important is religion to the American voter?', image: '/images/church-state.jpg', url: 'https://today.yougov.com/politics/articles/31507-church-and-state-just-how-important-religion-ameri' },
+  { id: 8, title: 'Church and state: How important is religion to the American voter?', image: '/church-state.jpg', url: 'https://today.yougov.com/politics/articles/31507-church-and-state-just-how-important-religion-ameri' },
 
-  { id: 9, title: 'How much money do Canadians think they can make in their life?', image: '/images/salary.jpg', url: 'https://today.yougov.com/economy/articles/28772-how-much-money-do-canadians-think-they-can-make-th' },
+  { id: 9, title: 'How much money do Canadians think they can make in their life?', image: '/salary.jpg', url: 'https://today.yougov.com/economy/articles/28772-how-much-money-do-canadians-think-they-can-make-th' },
 
-  { id: 10, title: "Officers are dispatched an average of 600 times a day; the Free Press finds out where they're headed and why", image: '/images/police.png', url: 'https://www.winnipegfreepress.com/featured/2018/10/01/911-calls-overall' },
+  { id: 10, title: "Officers are dispatched an average of 600 times a day; the Free Press finds out where they're headed and why", image: '/police.png', url: 'https://www.winnipegfreepress.com/featured/2018/10/01/911-calls-overall' },
 ];
 
 
@@ -31,7 +31,7 @@ const App = () => {
     <div className="container">
       <header>
         <div className="header-content">
-          <img src="/images/graeme-bruce.jpg" alt="Graeme Bruce Headshot" className="headshot" />
+          <img src="/graeme-bruce.jpg" alt="Graeme Bruce Headshot" className="headshot" />
           <h1>Graeme Bruce</h1>
         </div>
       </header>
